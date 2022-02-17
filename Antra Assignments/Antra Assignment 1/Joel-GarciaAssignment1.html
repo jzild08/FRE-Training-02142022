@@ -29,46 +29,64 @@
             
             
             <div class="content" id="name">
-                <input  type="text" id="first-name" name="first-name" placeholder="First Name*" required>
-                <input  type="text" id="last-name" name="last-name" placeholder="Last Name*" required>
-            </div>
+                <div class="content__div">
+                    <input  class="content__div__input " type="text" id="first-name" name="first-name" placeholder="First Name*" required>
+                </div>                
 
-            <br>
-
-            <div class="content">
-                <input type="tel" id="mobile" name="mobile" placeholder="Mobile no.">
-            </div>
-                <br>
-                <br>
-            <div class="content">
-                <input type="email" id="email" name="email" placeholder="Email Address">            
-            </div>
-            
-            <br>
-            
-            <div class="content">
-                <input  type="password" id="user-password" name="user-password" placeholder="Password*" required>
-                <input  type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password*" required>
-            </div>
-            
-            <br>
-
-            <div class="content">
-                <div class="agree-box">
-                    <input type="checkbox" id="agree" name="agree" required>
-                    <label for="agree">Agree</label>
+                <div class="content__div">
+                    <input  class="content__div__input" type="text" id="last-name" name="last-name" placeholder="Last Name*" required>
                 </div>
-                <p>By clicking register, you agree to the <a id="terms-conditions" href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+                
             </div>
-            <br>
-            
-            
 
             <br>
+
+            <div class="content">
+                <div class="content__div">
+                    <input class="content__div__input" type="tel" id="mobile" name="mobile" placeholder="Mobile no.">
+                </div>        
+            </div>
+                
+            <div class="content">
+                <div class="content__div">
+                    <input class="content__div__input" type="email" id="email" name="email" placeholder="Email Address">  
+                </div>           
+            </div>
             
-            <div class="-content">
-                <button  type="submit" id="register" name="register">Register</button>
-                <button  type="submit" id="sign-in" name="sign-in">Sign In</button>
+            <br>
+            
+            <div class="content">
+                <div class="content__div">
+                    <input  class="content__div__input" type="password" id="user-password" name="user-password" placeholder="Password*" required>                 
+                </div> 
+                
+                <div class="content__div">
+                    <input  class="content__div__input" type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password*" required>
+                </div>                
+            </div>
+
+            <div class="content">
+                <div class="content__div">
+                    <div class="agree__box">
+                        <input class="content__div__input" type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">Agree</label>
+                    </div>
+                </div> 
+                
+                <div class="content__div">
+                    <p>By clicking register, you agree to the <a id="terms-conditions" href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
+                </div>                
+            </div>
+                        
+            <div class="content">
+                <div class="content__div">
+                    <button class="content__div__button" type="submit" id="register" name="register">Register</button>
+                </div> 
+                
+                <div class="content__div">
+                    <button class="content__div__button" type="submit" id="sign-in" name="sign-in">Sign In</button>
+                </div>
+                
             </div>         
             
         </form>

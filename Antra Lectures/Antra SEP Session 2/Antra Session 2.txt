@@ -81,4 +81,7 @@ Flexbox
 
 It is a 1 dimensional CSS Layout, but can be used to become 2 dimensional
 
-CSS Grid
+Assignment Discussion
+
+<input type="submit"> - does not permit content
+<button> - open/close tag. Does permit content
