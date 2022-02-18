@@ -36,6 +36,7 @@ html{
 body{
     padding:0;
     margin:0;
+    
 }
 
 
@@ -81,7 +82,7 @@ main{
 .main__header{
     width:100vw;
     height:auto;
-    padding:20em 0;
+    padding:10em 0;
     background:var(--titleBackgroundColor);
     box-sizing:border-box;
 }
@@ -98,19 +99,43 @@ main{
 }
 
 footer{
-    display:fixed;
     width:100vw;
+    position:absolute;
+    bottom:0;
     margin:0;
     padding:10px;
-    
+    display:flex;
     background-color:var(--footerColor);
 }
 
+.footer__div{
+    width:50%;
+}
+
 .footer__ul{
-    display:fixed;
+    display:flex;
+    flex-direction:row;
     width:50%;
     max-width:500px;
+    padding:10px;
+    list-style-type:none;
+    margin:0 auto;
 }
+
+.footer__ul li{
+    padding:0 3em;
+    height:2em;
+    width:20em;
+    padding:0.5em;
+    text-align:center;
+}
+
+.footer__ul li a{
+    color:var(--textColor);
+    text-decoration:none;
+}
+
+
 
 
 
